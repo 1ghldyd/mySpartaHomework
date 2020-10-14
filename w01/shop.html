@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>'명절 선물세트 스팸 마일드 8호'</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Stylish&display=swap" rel="stylesheet">
+
+    <style type="text/css">
+        * {
+            font-family: 'Stylish', sans-serif;
+        }
+
+        .wrapper {
+            width: 600px;
+            margin: 10px auto;
+        }
+
+        .bigTxt {
+            font-size: xx-large;
+        }
+
+        .price {
+            padding-left: 20px;
+        }
+
+        form {
+            margin: 10px 20px;
+        }
+
+        .buttonOrder {
+            text-align: center;
+        }
+    </style>
+    <script>
+        function order() {
+            alert('주문이 완료되었습니다.')
+        }
+    </script>
+</head>
+<body>
+<div class="wrapper">
+    <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDAxMTBfMTY2%2FMDAxNTc4NTgyODA1NzA0.OIJZOGOhMeUlTJXAY5r393TLGBbOsrUSz750kCQ0YS8g.lyBGqtuKSoJHUOXD5Dv5RlJOR0UKSZlKpsBXIcL1glEg.JPEG.bicshow777%2F%25BC%25B3%25B8%25ED%25C0%25FD%25BC%25B1%25B9%25B0%25BC%25BC%25C6%25AE_%25BD%25BA%25C6%25D4%25BC%25B1%25B9%25B0%25BC%25BC%25C6%25AE_%25BC%25B3%25BC%25B1%25B9%25B0%25BC%25BC%25C6%25AE_%25B0%25A1%25B0%25DD_%25C8%25C4%25B1%25E2.jpg&type=sc960_832"/>
+    <div>
+        <span class="bigTxt">명절 선물세트 스팸 마일드 8호</span><span class="price">가격: 50,000원 / 개</span>
+    </div>
+    <div>
+        <ul>
+            <li>다양한 요리에 활용할 수 있는 스팸 선물 세트</li>
+            <li>간단하게 구워 밥반찬으로 활용하기에 용이</li>
+            <li>용기에 뚜껑이 함께 구성되어 위생적인 보관 가능</li>
+            <li>전용 상자에 깔끔하게 담겨있어 선물하기 편리</li>
+        </ul>
+    </div>
+    <form>
+        <div class="input-group input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-prepend input-group-text">주문자 이름</span>
+            </div>
+            <input type="text" class="form-control fix-rounded-right">
+        </div>
+        <div class="input-group input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-prepend input-group-text">수량</span>
+            </div>
+            <select class="form-control" id="exampleFormControlSelect1">
+                <option>-- 수량을 선택하세요 --</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+        <div class="input-group input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-prepend input-group-text">주소</span>
+            </div>
+            <input type="text" class="form-control fix-rounded-right">
+        </div>
+        <div class="input-group input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-prepend input-group-text">전화번호</span>
+            </div>
+            <input type="text" class="form-control fix-rounded-right">
+        </div>
+        <div class="buttonOrder">
+            <button onclick="order()" type="submit" class="btn btn-primary">주문하기</button>
+        </div>
+    </form>
+</div>
+</body>
+</html>
